@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPECIAL &bull; Luxury Online Clothing & Essentials</title>
+  <meta name="description" content="Discover SPECIAL - Contemporary luxury clothing brand featuring heavyweight tees, tailored trench coats, architectural silhouettes and minimal everyday essentials.">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar">
+    <span>Complimentary worldwide express delivery on orders over <strong>$100</strong> &bull; Use code <strong>SPECIAL20</strong> for 20% off</span>
+  </aside>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo">
+        SPECIAL<span class="logo-dot">.</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="shop.html" class="nav-link">Shop All</a>
+        <a href="shop.html?category=men" class="nav-link">Men</a>
+        <a href="shop.html?category=women" class="nav-link">Women</a>
+        <a href="shop.html?category=unisex" class="nav-link">Unisex</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Action Icons -->
+      <div class="header-actions">
+        <!-- Search Trigger -->
+        <button class="header-icon-btn open-search-modal" aria-label="Search products" title="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <!-- Wishlist Link -->
+        <a href="shop.html" class="header-icon-btn" aria-label="Wishlist" title="Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="count-badge wishlist-count-badge" style="display: none;">0</span>
+        </a>
+
+        <!-- Shopping Cart Trigger -->
+        <button class="header-icon-btn open-cart-btn" aria-label="Open Shopping Bag" title="Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="count-badge cart-count-badge" style="display: none;">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-overlay"></div>
+  <div class="mobile-nav-drawer">
+    <div class="mobile-nav-header">
+      <span class="brand-logo">SPECIAL<span class="logo-dot">.</span></span>
+      <button class="close-mobile-nav close-btn" aria-label="Close menu">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="shop.html" class="mobile-nav-link">All Collections</a>
+      <a href="shop.html?category=men" class="mobile-nav-link">Men's Editorial</a>
+      <a href="shop.html?category=women" class="mobile-nav-link">Women's Silhouette</a>
+      <a href="shop.html?category=unisex" class="mobile-nav-link">Unisex Streetwear</a>
+      <a href="about.html" class="mobile-nav-link">Brand Story</a>
+      <a href="contact.html" class="mobile-nav-link">Contact & Stores</a>
+      <a href="cart.html" class="mobile-nav-link">View Bag (<span class="cart-count-badge">0</span>)</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <p class="text-muted" style="font-size: 0.85rem; margin-bottom: 12px;">VIP Assistance: care@specialclothing.com</p>
+      <div class="social-links">
+        <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+      <div class="hero-bg-media">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1920&q=85" alt="SPECIAL High Fashion Editorial" class="hero-bg-img">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tagline">Signature Drop &bull; 2026 Collection</span>
+          <h1 class="hero-title">Timeless Luxury For The Unconventional.</h1>
+          <p class="hero-description">
+            Precision tailoring meets heavyweight streetwear. Discover minimalist silhouettes crafted from organic French Terry and Italian fine textiles.
+          </p>
+          <div class="hero-buttons-group">
+            <a href="shop.html" class="btn btn-primary btn-lg">Explore Collection</a>
+            <a href="shop.html?category=men" class="btn btn-outline-white btn-lg">Shop Men</a>
+            <a href="shop.html?category=women" class="btn btn-outline-white btn-lg">Shop Women</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Propositions / Highlights Strip -->
+    <section class="features-strip">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class="feature-text">
+              <h4>Free Express Delivery</h4>
+              <p>On all worldwide orders over $100</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-feather-pointed"></i></div>
+            <div class="feature-text">
+              <h4>Artisanal Craftsmanship</h4>
+              <p>Organic heavy cottons & pure silk blends</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <div class="feature-text">
+              <h4>30-Day Hassle-Free Returns</h4>
+              <p>Complimentary doorstep pickup</p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="feature-text">
+              <h4>Certified Authentic</h4>
+              <p>100% verified premium quality</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Showcase -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Curated Wardrobes</span>
+          <h2 class="section-title">Shop By Division</h2>
+        </div>
+
+        <div class="category-cards-grid">
+          <!-- Men's Card -->
+          <a href="shop.html?category=men" class="category-card">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80" alt="Men's Collection" class="category-card-bg">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <span class="category-badge-text">Division 01</span>
+              <h3 class="category-card-title">Men's Tailoring & Casuals</h3>
+              <span class="category-card-link">Explore Division <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </a>
+
+          <!-- Women's Card -->
+          <a href="shop.html?category=women" class="category-card">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80" alt="Women's Collection" class="category-card-bg">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <span class="category-badge-text">Division 02</span>
+              <h3 class="category-card-title">Women's Sculpt & Silk</h3>
+              <span class="category-card-link">Explore Division <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </a>
+
+          <!-- Unisex Streetwear Card -->
+          <a href="shop.html?category=unisex" class="category-card">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" alt="Unisex Streetwear" class="category-card-bg">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <span class="category-badge-text">Division 03</span>
+              <h3 class="category-card-title">Heavyweight Streetwear</h3>
+              <span class="category-card-link">Explore Division <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Grid -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div class="flex-between section-header">
+          <div>
+            <span class="section-subtitle">Editorial Picks</span>
+            <h2 class="section-title">New Arrivals & Icons</h2>
+          </div>
+          <a href="shop.html" class="btn btn-outline">View All Products <i class="fa-solid fa-arrow-right ms-1"></i></a>
+        </div>
+
+        <div class="products-grid" id="featured-products-grid">
+          <!-- Rendered dynamically by js/main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Lookbook Banner -->
+    <section class="editorial-banner-section">
+      <div class="editorial-layout">
+        <div class="editorial-image-side">
+          <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1200&q=85" alt="SPECIAL Editorial Lookbook" class="editorial-img">
+        </div>
+        <div class="editorial-content-side">
+          <span class="editorial-tag">Brand Philosophy</span>
+          <h2 class="editorial-heading">Quiet Luxury. Architectural Forms. Unmatched Comfort.</h2>
+          <p class="editorial-text">
+            At SPECIAL, we believe clothing should be an effortless extension of your individuality. We reject fast fashion in favor of heavyweight organic cottons, Japanese technical fabrics, and silhouettes engineered to transcend seasons.
+          </p>
+          <div>
+            <a href="about.html" class="btn btn-gold btn-lg">Read Our Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials / Social Proof -->
+    <section class="section-padding testimonials-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Client Perspectives</span>
+          <h2 class="section-title">What Our Community Says</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div>
+              <div class="stars mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">"The 300 GSM Heavyweight Oversized Tee is hands-down the best fitting t-shirt I've ever owned. The drape is immaculate and it holds shape after dozens of washes."</p>
+            </div>
+            <div class="testimonial-user">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Client Avatar" class="user-avatar">
+              <div class="user-info">
+                <h5>Elena Rostova</h5>
+                <span>Verified Buyer &bull; London, UK</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div>
+              <div class="stars mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">"The Elysian Trench Coat feels like a $1,500 runway piece. The cut, the horn buttons, and the fabric structure are pure perfection. SPECIAL is my new go-to brand."</p>
+            </div>
+            <div class="testimonial-user">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Client Avatar" class="user-avatar">
+              <div class="user-info">
+                <h5>Marcus Vance</h5>
+                <span>Architect &bull; New York, USA</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div>
+              <div class="stars mb-3">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-quote">"Delivery arrived within 3 days in the most beautiful matte-black presentation box. The attention to detail on the velvet blazer is extraordinary."</p>
+            </div>
+            <div class="testimonial-user">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80" alt="Client Avatar" class="user-avatar">
+              <div class="user-info">
+                <h5>Aria Tanaka</h5>
+                <span>Creative Director &bull; Tokyo, JP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIP Newsletter Subscription -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-box">
+          <span class="section-subtitle">Exclusive Access</span>
+          <h2 class="section-title">Join The SPECIAL Atelier</h2>
+          <p class="text-secondary mt-2">Subscribe to receive private drop invitations, editorial lookbooks, and 15% off your initial order.</p>
+          
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <p class="privacy-notice">By signing up, you agree to our Privacy Policy. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="footer-logo">SPECIAL<span class="logo-dot">.</span></a>
+          <p class="footer-desc">
+            An independent luxury clothing brand producing meticulously crafted essentials, tailoring, and contemporary streetwear.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" class="social-icon" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Collections</h4>
+          <ul class="footer-nav">
+            <li><a href="shop.html?category=men">Men's Apparel</a></li>
+            <li><a href="shop.html?category=women">Women's Apparel</a></li>
+            <li><a href="shop.html?category=unisex">Unisex Streetwear</a></li>
+            <li><a href="shop.html">New Arrivals</a></li>
+            <li><a href="shop.html">Archive Sale</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Client Services</h4>
+          <ul class="footer-nav">
+            <li><a href="contact.html">Track Your Order</a></li>
+            <li><a href="about.html#sizing">Size & Fit Guide</a></li>
+            <li><a href="contact.html">Shipping & Returns</a></li>
+            <li><a href="contact.html#faq">FAQ & Support</a></li>
+            <li><a href="about.html#sustainability">Sustainability</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Flagship Atelier</h4>
+          <p class="footer-desc" style="margin-bottom: 12px;">
+            484 Broome Street, SoHo<br>
+            New York, NY 10013<br>
+            Open Daily: 10:00 AM – 8:00 PM
+          </p>
+          <p class="footer-desc">
+            Direct Concierge: <strong>+1 (800) 555-SPEC</strong><br>
+            VIP Desk: <strong>care@specialclothing.com</strong>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 SPECIAL&trade; Clothing Inc. All rights reserved.
+        </div>
+        <div class="payment-badges-row">
+          <i class="fa-brands fa-cc-visa" title="Visa"></i>
+          <i class="fa-brands fa-cc-mastercard" title="Mastercard"></i>
+          <i class="fa-brands fa-cc-apple-pay" title="Apple Pay"></i>
+          <i class="fa-brands fa-cc-amex" title="American Express"></i>
+          <i class="fa-brands fa-cc-paypal" title="PayPal"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL COMPONENTS (Slide-in Cart, Quick View, Search Overlay)
+       ========================================================================== -->
+
+  <!-- Slide-in Cart Drawer Overlay & Panel -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping Cart Drawer">
+    <div class="cart-drawer-header">
+      <h3>Your Bag <span id="cart-drawer-count">(0)</span></h3>
+      <button class="close-btn" id="close-cart-drawer" aria-label="Close cart">&times;</button>
+    </div>
+
+    <!-- Free Shipping Progress -->
+    <div class="cart-shipping-banner">
+      <div id="shipping-text">Add $100.00 more to unlock <strong>FREE VIP Shipping</strong>!</div>
+      <div class="progress-track">
+        <div class="progress-bar-fill" id="free-shipping-progress" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Items List -->
+    <div class="cart-drawer-items" id="cart-drawer-items">
+      <!-- Injected by js/main.js -->
+    </div>
+
+    <!-- Drawer Footer -->
+    <div class="cart-drawer-footer">
+      <div class="cart-subtotal-row">
+        <span>Subtotal</span>
+        <span id="cart-drawer-subtotal">$0.00</span>
+      </div>
+      <p class="cart-tax-notice">Taxes, discounts and shipping calculated at checkout.</p>
+      
+      <div class="cart-drawer-buttons">
+        <a href="cart.html" class="btn btn-outline btn-block" onclick="closeCartDrawer()">View & Edit Bag</a>
+        <button class="btn btn-primary btn-block" onclick="proceedToCheckoutModal()">Checkout Now</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Quick View Modal -->
+  <div class="modal-backdrop" id="quick-view-backdrop"></div>
+  <div class="quick-view-modal" id="quick-view-modal">
+    <button class="modal-close-btn" id="close-quick-view" aria-label="Close quick view">&times;</button>
+    <div id="quick-view-content">
+      <!-- Injected dynamically on click -->
+    </div>
+  </div>
+
+  <!-- Live Search Overlay -->
+  <div class="search-modal" id="search-modal">
+    <div class="search-modal-header container">
+      <span class="brand-logo">SPECIAL<span class="logo-dot">.</span></span>
+      <button class="modal-close-btn" id="close-search-modal" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-input-wrap">
+      <input type="text" id="search-input-field" class="search-input-field" placeholder="Search by name, silhouette, collection..." autocomplete="off">
+    </div>
+    <div class="search-results-area" id="search-live-results">
+      <p class="search-hint">Type at least 2 characters to search our collections...</p>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
